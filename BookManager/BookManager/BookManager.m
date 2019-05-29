@@ -14,6 +14,8 @@
 @implementation BookManager
 
 //init으로 초기화 , 원래 생성자에 init 함수를 넣는데, 신기하다.
+//모든 객체는 동적할당을 하고 init이 된다.
+//초기화 메서드
 - (id)init {
     self = [super init];
     if(self)
@@ -36,7 +38,9 @@
 {
     
     NSMutableString *strTmp = [[NSMutableString alloc] init];
+    
     for(Book *bookTemp in bookList){
+        //이렇게 하나 하나 누적을 한다.
         [strTmp appendString:@"Name:"];
         [strTmp appendString:bookTemp.name];
         
@@ -51,8 +55,11 @@
     return strTmp;
 }
 
+
+
 -(NSUInteger) countBook
 {
+    //unsigned long
     return [bookList count];
 }
 
@@ -75,5 +82,28 @@
     
     return nil;
 }
+
+
+
+-(NSString *) deleteBook :(NSString*) name
+{
+    //Mutable dictionary 로 관리 해야 함 : 나중에 mutable dictionary로 바꿔 주기
+    for(Book *bookTemp in bookList){
+        if([bookTemp.name  isEqualToString:name] ){
+            [bookList removeObject:bookTemp];
+            return name;
+        }
+    }
+    
+    return nil;
+    
+    
+
+    
+
+    
+}
+
+
 
 @end

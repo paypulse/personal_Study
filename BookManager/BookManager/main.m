@@ -19,7 +19,7 @@ int main(int argc, const char * argv[]) {
         book1.author=@"세익스피어";
         
         
-        [book1 bookPrint];
+       // [book1 bookPrint];
         
         ///
         Book *book2 = [[Book alloc]init];
@@ -28,7 +28,7 @@ int main(int argc, const char * argv[]) {
         book2.author=@"세익스피어1";
         
         
-        [book2 bookPrint];
+       // [book2 bookPrint];
         
         ///
         Book *book3 = [[Book alloc]init];
@@ -37,9 +37,13 @@ int main(int argc, const char * argv[]) {
         book3.author=@"세익스피어2";
         
         
-        [book3 bookPrint];
+       // [book3 bookPrint];
         
-        //Book Manager
+        
+        
+        
+        
+        //Book Manager :  ?
         
         BookManager *myBook = [[BookManager alloc]init];
         
@@ -47,18 +51,30 @@ int main(int argc, const char * argv[]) {
         [myBook addBook:book2];
         [myBook addBook:book3];
         
+        
+        
         //[myBook shoAllBook];
-        NSLog(@"%@ ", [myBook shoAllBook]);
-        NSLog(@"count : %li",[myBook countBook]);
+      //  NSLog(@"%@ ", [myBook shoAllBook]);
+      
+      //  NSLog(@"\n\n\ncount : %li",[myBook countBook]);
         
         
-        NSString *strTemp = [myBook findBook:@"햄릿2"];
+        NSString *strTemp = [myBook findBook:@"죄와벌"];
         if(strTemp  != nil)
         {
-            NSLog(@"%@", strTemp);
+          //  NSLog(@"\n%@", strTemp);
         }else{
-            NSLog(@"찾으시는 책이 없네요");
+          //  NSLog(@"\n찾으시는 책이 없네요");
         }
+        
+        
+        
+        NSLog(@"%@",[myBook shoAllBook]);
+        
+        
+        
+        
+        
         
     }
     return 0;
