@@ -36,6 +36,7 @@
 
 -(NSString *) shoAllBook
 {
+    NSLog(@" shoAllBook in");
     
     NSMutableString *strTmp = [[NSMutableString alloc] init];
     
@@ -52,6 +53,7 @@
         
     }
     
+    NSLog(@"strTmp : %@", strTmp);
     return strTmp;
 }
 

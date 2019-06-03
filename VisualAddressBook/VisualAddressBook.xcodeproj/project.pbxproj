@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45166AFA229F6EB900B12214 /* intro-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 45166AF9229F6EB900B12214 /* intro-bg.png */; };
+		45166AFC229F71D700B12214 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 45166AFB229F71D700B12214 /* Logo.png */; };
 		454AEB50229CC97100511933 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 454AEB4F229CC97100511933 /* AppDelegate.m */; };
 		454AEB53229CC97100511933 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 454AEB52229CC97100511933 /* ViewController.m */; };
 		454AEB56229CC97100511933 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454AEB54229CC97100511933 /* Main.storyboard */; };
 		454AEB58229CC97600511933 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 454AEB57229CC97600511933 /* Assets.xcassets */; };
-		454AEB5B229CC97600511933 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454AEB59229CC97600511933 /* LaunchScreen.storyboard */; };
 		454AEB5E229CC97600511933 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 454AEB5D229CC97600511933 /* main.m */; };
+		4560F28C229F781300231D15 /* BookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4560F288229F781300231D15 /* BookManager.m */; };
+		4560F28D229F781300231D15 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 4560F28A229F781300231D15 /* Book.m */; };
+		4560F291229F8D5D00231D15 /* IntroView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4560F290229F8D5D00231D15 /* IntroView.m */; };
+		4560F293229FB98C00231D15 /* srTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4560F292229FB98C00231D15 /* srTest.storyboard */; };
+		AF7FB4DFFBE2E8D8B6F4AAEE /* Pods_VisualAddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3342258A84D660AEBFED176 /* Pods_VisualAddressBook.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29205E146023FEBB3D9CBC5B /* Pods-VisualAddressBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisualAddressBook.debug.xcconfig"; path = "Target Support Files/Pods-VisualAddressBook/Pods-VisualAddressBook.debug.xcconfig"; sourceTree = "<group>"; };
+		45166AF9229F6EB900B12214 /* intro-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "intro-bg.png"; sourceTree = "<group>"; };
+		45166AFB229F71D700B12214 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Logo.png; path = ../../../../../Dropbox/Screenshots/Logo.png; sourceTree = "<group>"; };
 		454AEB4B229CC97100511933 /* VisualAddressBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisualAddressBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		454AEB4E229CC97100511933 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		454AEB4F229CC97100511933 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -23,9 +32,17 @@
 		454AEB52229CC97100511933 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		454AEB55229CC97100511933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		454AEB57229CC97600511933 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		454AEB5A229CC97600511933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		454AEB5C229CC97600511933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		454AEB5D229CC97600511933 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4560F288229F781300231D15 /* BookManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookManager.m; path = ../../../BookManager/BookManager/BookManager.m; sourceTree = "<group>"; };
+		4560F289229F781300231D15 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Book.h; path = ../../../BookManager/BookManager/Book.h; sourceTree = "<group>"; };
+		4560F28A229F781300231D15 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Book.m; path = ../../../BookManager/BookManager/Book.m; sourceTree = "<group>"; };
+		4560F28B229F781300231D15 /* BookManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookManager.h; path = ../../../BookManager/BookManager/BookManager.h; sourceTree = "<group>"; };
+		4560F28F229F8D5D00231D15 /* IntroView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroView.h; sourceTree = "<group>"; };
+		4560F290229F8D5D00231D15 /* IntroView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroView.m; sourceTree = "<group>"; };
+		4560F292229FB98C00231D15 /* srTest.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = srTest.storyboard; sourceTree = "<group>"; };
+		E03BCF9D51C7A963AB01ABDD /* Pods-VisualAddressBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisualAddressBook.release.xcconfig"; path = "Target Support Files/Pods-VisualAddressBook/Pods-VisualAddressBook.release.xcconfig"; sourceTree = "<group>"; };
+		F3342258A84D660AEBFED176 /* Pods_VisualAddressBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VisualAddressBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +50,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF7FB4DFFBE2E8D8B6F4AAEE /* Pods_VisualAddressBook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45166AF7229F6E0000B12214 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				45166AF8229F6E3200B12214 /* intro_Resources */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		45166AF8229F6E3200B12214 /* intro_Resources */ = {
+			isa = PBXGroup;
+			children = (
+				45166AFB229F71D700B12214 /* Logo.png */,
+				45166AF9229F6EB900B12214 /* intro-bg.png */,
+			);
+			path = intro_Resources;
+			sourceTree = "<group>";
+		};
 		454AEB42229CC97100511933 = {
 			isa = PBXGroup;
 			children = (
 				454AEB4D229CC97100511933 /* VisualAddressBook */,
 				454AEB4C229CC97100511933 /* Products */,
+				879B90279BE1739EB6D30DC7 /* Pods */,
+				BBE6C4FAC2669C89EC05B0B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +95,57 @@
 		454AEB4D229CC97100511933 /* VisualAddressBook */ = {
 			isa = PBXGroup;
 			children = (
+				4560F28E229F8C5100231D15 /* LoginPage */,
+				4560F287229F77B700231D15 /* BookAddress */,
 				454AEB4E229CC97100511933 /* AppDelegate.h */,
 				454AEB4F229CC97100511933 /* AppDelegate.m */,
 				454AEB51229CC97100511933 /* ViewController.h */,
 				454AEB52229CC97100511933 /* ViewController.m */,
 				454AEB54229CC97100511933 /* Main.storyboard */,
+				4560F292229FB98C00231D15 /* srTest.storyboard */,
 				454AEB57229CC97600511933 /* Assets.xcassets */,
-				454AEB59229CC97600511933 /* LaunchScreen.storyboard */,
 				454AEB5C229CC97600511933 /* Info.plist */,
 				454AEB5D229CC97600511933 /* main.m */,
+				45166AF7229F6E0000B12214 /* Resources */,
 			);
 			path = VisualAddressBook;
+			sourceTree = "<group>";
+		};
+		4560F287229F77B700231D15 /* BookAddress */ = {
+			isa = PBXGroup;
+			children = (
+				4560F289229F781300231D15 /* Book.h */,
+				4560F28A229F781300231D15 /* Book.m */,
+				4560F28B229F781300231D15 /* BookManager.h */,
+				4560F288229F781300231D15 /* BookManager.m */,
+			);
+			path = BookAddress;
+			sourceTree = "<group>";
+		};
+		4560F28E229F8C5100231D15 /* LoginPage */ = {
+			isa = PBXGroup;
+			children = (
+				4560F28F229F8D5D00231D15 /* IntroView.h */,
+				4560F290229F8D5D00231D15 /* IntroView.m */,
+			);
+			path = LoginPage;
+			sourceTree = "<group>";
+		};
+		879B90279BE1739EB6D30DC7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29205E146023FEBB3D9CBC5B /* Pods-VisualAddressBook.debug.xcconfig */,
+				E03BCF9D51C7A963AB01ABDD /* Pods-VisualAddressBook.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BBE6C4FAC2669C89EC05B0B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3342258A84D660AEBFED176 /* Pods_VisualAddressBook.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,6 +155,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 454AEB61229CC97600511933 /* Build configuration list for PBXNativeTarget "VisualAddressBook" */;
 			buildPhases = (
+				0802D014EC0F89EF5421D118 /* [CP] Check Pods Manifest.lock */,
 				454AEB47229CC97100511933 /* Sources */,
 				454AEB48229CC97100511933 /* Frameworks */,
 				454AEB49229CC97100511933 /* Resources */,
@@ -128,22 +206,52 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				454AEB5B229CC97600511933 /* LaunchScreen.storyboard in Resources */,
+				45166AFC229F71D700B12214 /* Logo.png in Resources */,
+				45166AFA229F6EB900B12214 /* intro-bg.png in Resources */,
 				454AEB58229CC97600511933 /* Assets.xcassets in Resources */,
+				4560F293229FB98C00231D15 /* srTest.storyboard in Resources */,
 				454AEB56229CC97100511933 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0802D014EC0F89EF5421D118 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VisualAddressBook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		454AEB47229CC97100511933 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4560F28D229F781300231D15 /* Book.m in Sources */,
 				454AEB53229CC97100511933 /* ViewController.m in Sources */,
 				454AEB5E229CC97600511933 /* main.m in Sources */,
+				4560F28C229F781300231D15 /* BookManager.m in Sources */,
 				454AEB50229CC97100511933 /* AppDelegate.m in Sources */,
+				4560F291229F8D5D00231D15 /* IntroView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,14 +264,6 @@
 				454AEB55229CC97100511933 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		454AEB59229CC97600511933 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				454AEB5A229CC97600511933 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -283,6 +383,7 @@
 		};
 		454AEB62229CC97600511933 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29205E146023FEBB3D9CBC5B /* Pods-VisualAddressBook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +401,7 @@
 		};
 		454AEB63229CC97600511933 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E03BCF9D51C7A963AB01ABDD /* Pods-VisualAddressBook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
